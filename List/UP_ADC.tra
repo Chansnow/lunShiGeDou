@@ -1,0 +1,55 @@
+*** Creating Trace Output File '..\List\UP_ADC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\list\main.o"'
+### List of Objects: adding '"..\list\core_cm3.o"'
+### List of Objects: adding '"..\list\misc.o"'
+### List of Objects: adding '"..\list\stm32f10x_adc.o"'
+### List of Objects: adding '"..\list\stm32f10x_dma.o"'
+### List of Objects: adding '"..\list\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\list\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\list\stm32f10x_tim.o"'
+### List of Objects: adding '"..\list\stm32f10x_usart.o"'
+### List of Objects: adding '"..\list\system_stm32f10x.o"'
+### List of Objects: adding '"..\list\stm32f10x_exti.o"'
+### List of Objects: adding '"..\list\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\list\cortexm3_macro.o"'
+### List of Objects: adding '"..\list\up_system.o"'
+### List of Objects: adding '"..\list\up_globle.o"'
+### List of Objects: adding '"..\list\up_adc.o"'
+### List of Objects: adding '"..\list\up_key.o"'
+### List of Objects: adding '"..\list\up_lcd.o"'
+### List of Objects: adding '"..\list\up_uart.o"'
+### List of Objects: adding '"..\list\up_it.o"'
+### List of Objects: adding '"..\list\up_exti.o"'
+### List of Objects: adding '"..\list\up_timer.o"'
+### List of Objects: adding '"..\list\up_nvic.o"'
+### List of Objects: adding '"..\list\up_pwm.o"'
+### List of Objects: adding '"..\list\up_bluetooth.o"'
+### List of Objects: adding '"..\list\up_cds5500.o"'
+### List of Objects: adding '"..\list\up_zigbee.o"'
+### List of Objects: adding '"..\list\up_usr232.o"'
+### List of Objects: adding '"..\list\up_ioout.o"'
+### List of Objects: adding '"..\list\up_vga.o"'
+### List of Objects: adding '"..\list\up_rfid.o"'
+### List of Objects: adding '"..\list\up_mp3.o"'
+### List of Objects: adding '"..\list\up_variable.o"'
+### List of Objects: adding '"..\list\up_uart_parse.o"'
+### List of Objects: adding '"..\list\up_woody_voiceplaying.o"'
+### List of Objects: adding '"..\list\up_woody_speechrecognition.o"'
+### List of Objects: adding '"..\list\up_woody_imagerecognition.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\list\main.o" "..\list\core_cm3.o" "..\list\misc.o" "..\list\stm32f10x_adc.o" "..\list\stm32f10x_dma.o" "..\list\stm32f10x_gpio.o" "..\list\stm32f10x_rcc.o" "..\list\stm32f10x_tim.o" "..\list\stm32f10x_usart.o" "..\list\system_stm32f10x.o" "..\list\stm32f10x_exti.o" "..\list\startup_stm32f10x_hd.o" "..\list\cortexm3_macro.o" "..\list\up_system.o" "..\list\up_globle.o" "..\list\up_adc.o" "..\list\up_key.o" "..\list\up_lcd.o" "..\list\up_uart.o" "..\list\up_it.o" "..\list\up_exti.o" "..\list\up_timer.o" "..\list\up_nvic.o" "..\list\up_pwm.o" "..\list\up_bluetooth.o" "..\list\up_cds5500.o" "..\list\up_zigbee.o" "..\list\up_usr232.o" "..\list\up_ioout.o" "..\list\up_vga.o" "..\list\up_rfid.o" "..\list\up_mp3.o" "..\list\up_variable.o" "..\list\up_uart_parse.o" "..\list\up_woody_voiceplaying.o" "..\list\up_woody_speechrecognition.o" "..\list\up_woody_imagerecognition.o" --library_type=microlib --strict --scatter "..\List\UP_ADC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\List\UP_ADC.map" -o "..\List\UP_ADC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\List\UP_ADC.axf'
+### ADS-LD Command File: '..\List\UP_ADC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\List\UP_ADC.lnp', Handle=0x000005B0
+### Writing '.lnp' file
+### ADS-LD Command file '..\List\UP_ADC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
